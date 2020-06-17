@@ -1,0 +1,103 @@
+{
+	"Project": "ChessUniverse",
+	"fileformat": "png",
+	"resolution": {
+		"width": 2560,
+		"height": 2048,
+		"AntiAliasing": false
+	},
+	"objects": [
+		{
+			"type": "Sphere",
+			"X": 0,
+			"Y": 0,
+			"Z": 0,
+			"radius": 0.1,
+			"color": "#FF0000",
+			"ID": "TestSphere",
+			"effects": [
+				"lambert",
+				"phong"
+			]
+		},
+		{
+			"type": "Sphere",
+			"X": 0.5,
+			"Y": 0,
+			"Z": 1.2,
+			"radius": 0.5,
+			"color": "#00FF00",
+			"ID": "TestSphere2",
+			"effects": [
+				"lambert",
+				"phong"
+			]
+		},
+		{
+			"type": "Sphere",
+			"X": -0.3,
+			"Y": 0,
+			"Z": 3,
+			"radius": 0.3,
+			"color": "#0000FF",
+			"ID": "TestSphere3",
+			"effects": [
+				"lambert",
+				"phong"
+			]
+		},
+		{
+			"type": "Sphere",
+			"X": 0,
+			"Y": -0.3,
+			"Z": 0.1,
+			"radius": 0.1,
+			"color": "#FF00FF",
+			"ID": "TestSphere4",
+			"effects": [
+				"lambert",
+				"phong"
+			]
+		},
+		{
+			"type": "Sphere",
+			"X": -0.5,
+			"Y": 0.2,
+			"Z": 0.05,
+			"radius": 0.3,
+			"color": "#FF00FF",
+			"ID": "TestSphere5",
+			"effects": [
+				"lambert",
+				"phong"
+			]
+		},
+		{
+			"type": "Plane",
+			"X": 0,
+			"Y": 1,
+			"Z": 0,
+			"dX": 0,
+			"dY": 1,
+			"dZ": 0,
+			"color": ["#B58863", "#F0D9B5"],
+			"ID": "groundplate",
+			"effects": [
+				"planestyle-chess",
+				"lowlightshade",
+				"lightfade"
+			]
+		}
+	],
+	"camera": {
+		"X": 0,
+		"Y": 0,
+		"Z": -1
+	},
+	"light": {
+		"X": -1,
+		"Y": -1,
+		"Z": -1,
+		"brightness": 10
+	}
+}

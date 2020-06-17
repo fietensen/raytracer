@@ -1,0 +1,55 @@
+{
+	"Project": "TestProject",
+	"fileformat": "png",
+	"resolution": {
+		"width": 2560,
+		"height": 2048,
+		"AntiAliasing": false
+	},
+	"objects": [
+		{
+			"type": "Sphere",
+			"X": 0,
+			"Y": 0,
+			"Z": 0,
+			"radius": 0.5,
+			"color": "#F0F0F0",
+			"ID": "TestSphere",
+			"extra": {
+				"reflect": 20
+			},
+			"effects": [
+				"lambert",
+				"phong",
+				"lightbounce"
+			]
+		},
+		{
+			"type": "Plane",
+			"X": 0,
+			"Y": 1,
+			"Z": 0,
+			"dX": 0,
+			"dY": 1,
+			"dZ": 0,
+			"color": ["#FF0000", "#00FF00"],
+			"ID": "groundplate",
+			"effects": [
+				"planestyle-chess",
+				"lowlightshade",
+				"lightfade"
+			]
+		}
+	],
+	"camera": {
+		"X": 0,
+		"Y": 0,
+		"Z": -1
+	},
+	"light": {
+		"X": -1,
+		"Y": -1,
+		"Z": -1,
+		"brightness": 10
+	}
+}
